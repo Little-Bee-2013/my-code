@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "preLaunchTask": "Build active cpp file",      "program": "D:\\debug_bin\\${fileBasenameNoExtension}.exe",      "args": [],
+      "stopAtEntry": false,
+      "cwd": "D:\\debug_bin",      "environment": [],
+      "externalConsole": true,      "MIMode": "gdb",
+      "miDebuggerPath": "D:\\ProgramFiles\\Dev-Cpp\\MinGW64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
